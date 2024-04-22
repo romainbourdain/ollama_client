@@ -5,7 +5,7 @@ from ollama_client._types import Option, Message, Image, Format
 from typing import List, Optional
 
 
-class OllamaAPI:
+class OllamaClient:
     def __init__(self, base_url):
         self.base_url = base_url
 

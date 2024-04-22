@@ -1,6 +1,6 @@
-from ollama_client.api import OllamaAPI
+from ollama_client.client import OllamaClient
 
-api = OllamaAPI("http://192.168.10.4:11435")
+api = OllamaClient("http://192.168.10.4:11435")
 
 api.pull("llama2")
 
