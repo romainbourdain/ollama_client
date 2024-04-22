@@ -1,10 +1,11 @@
-from ollama_client.client import OllamaClient
-import json
+from ollama_client.api import OllamaAPI
 
-client = OllamaClient("192.168.10.4", "11435", "llama3:70b")
+api = OllamaAPI("http://192.168.10.4:11435")
 
-res = client.generate("Why the sky is blue ?", stream=True)
+api.pull("llama2")
 
-for line in res:
-    data = json.loads(line.decode())
-    print(data["response"])
+response = api.generate("llama2", "Why is the sky blue", stream=True)
+
+for message in response:
+    print(message["response"], end="")
+print("")
