@@ -1,0 +1,36 @@
+2024-04-22 18:57:53,291 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama2', 'insecure': None, 'stream': False}
+2024-04-22 18:57:53,292 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-22 18:57:56,526 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/pull HTTP/1.1" 200 20
+2024-04-22 18:57:56,526 INFO client Making post request to http://192.168.10.4:11435/api/generate with payload: {'model': 'llama2', 'prompt': 'Why is the sky blue', 'images': None, 'format': None, 'options': None, 'system': '', 'template': '', 'context': None, 'stream': True, 'raw': False, 'keep_alive': '5m'}
+2024-04-22 18:57:56,527 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-22 18:57:56,635 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/generate HTTP/1.1" 200 None
+2024-04-22 18:58:30,152 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama2', 'insecure': None, 'stream': False}
+2024-04-22 18:58:30,153 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-22 18:58:33,291 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/pull HTTP/1.1" 200 20
+2024-04-22 18:58:33,291 INFO client Making post request to http://192.168.10.4:11435/api/generate with payload: {'model': 'llama2', 'prompt': 'Why is the sky blue', 'images': None, 'format': None, 'options': None, 'system': '', 'template': '', 'context': None, 'stream': True, 'raw': False, 'keep_alive': '5m'}
+2024-04-22 18:58:33,292 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-22 18:58:33,400 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/generate HTTP/1.1" 200 None
+2024-04-24 15:05:31,749 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama2', 'insecure': None, 'stream': False}
+2024-04-24 15:05:31,750 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:05:35,829 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/pull HTTP/1.1" 200 20
+2024-04-24 15:05:35,830 INFO client Making post request to http://192.168.10.4:11435/api/generate with payload: {'model': 'llama2', 'prompt': 'Why is the sky blue', 'images': None, 'format': None, 'options': None, 'system': '', 'template': '', 'context': None, 'stream': True, 'raw': False, 'keep_alive': '5m'}
+2024-04-24 15:05:35,831 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:05:37,221 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/generate HTTP/1.1" 200 None
+2024-04-24 15:05:55,269 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama2', 'insecure': None, 'stream': False}
+2024-04-24 15:05:55,270 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:05:58,338 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/pull HTTP/1.1" 200 20
+2024-04-24 15:05:58,338 INFO client Making post request to http://192.168.10.4:11435/api/generate with payload: {'model': 'llama2', 'prompt': 'Why is the sky blue', 'images': None, 'format': None, 'options': None, 'system': '', 'template': '', 'context': None, 'stream': True, 'raw': False, 'keep_alive': '5m'}
+2024-04-24 15:05:58,339 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:05:58,361 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/generate HTTP/1.1" 200 None
+2024-04-24 15:06:18,548 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama3', 'insecure': None, 'stream': False}
+2024-04-24 15:06:18,549 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:06:28,559 ERROR client Request timed out
+2024-04-24 15:08:06,486 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama3:70b', 'insecure': None, 'stream': False}
+2024-04-24 15:08:06,487 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:08:16,495 ERROR client Request timed out
+2024-04-24 15:08:40,308 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama3:70b', 'insecure': None, 'stream': True}
+2024-04-24 15:08:40,309 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:08:40,310 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/pull HTTP/1.1" 200 None
+2024-04-24 15:08:50,334 INFO client Making post request to http://192.168.10.4:11435/api/pull with payload: {'name': 'llama3:70b', 'insecure': None, 'stream': True}
+2024-04-24 15:08:50,336 DEBUG connectionpool Starting new HTTP connection (1): 192.168.10.4:11435
+2024-04-24 15:08:50,336 DEBUG connectionpool http://192.168.10.4:11435 "POST /api/pull HTTP/1.1" 200 None
